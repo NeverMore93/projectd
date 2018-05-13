@@ -14,18 +14,6 @@
     <repositories>
         <repository>
             <id>nexus</id>
-            <name>nexus-release</name>
-            <url>http://localhost:8081/repository/nexus-release/</url>
-            <layout>default</layout>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>nexus</id>
             <name>nexus-snapshot</name>
             <url>http://localhost:8081/repository/nexus-snapshot/</url>
             <layout>default</layout>
